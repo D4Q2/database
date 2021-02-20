@@ -13,7 +13,7 @@ var GithubDB = require('..').default;
 var githubDB = new GithubDB(options);
  
 // Authenticate Github DB -> grab a token from here https://github.com/settings/tokens
-githubDB.auth(personalAccessToken);
+githubDB.auth(88b17e8680f40fd8880bedaa59be82c1764ce0f7);
  
 // Connect to repository
 githubDB.connectToRepo();
