@@ -1,3 +1,5 @@
+import GithubDB from '../lib/githubdb';
+
 var options = {
   //host: 'private-github-api.com', // <-- Private github api url. If not passed, defaults to 'api.github.com'
   //pathPrefix: 'prefix-for-enterprise-instance', // <-- Private github api url prefix. If not passed, defaults to null.
