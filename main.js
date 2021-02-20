@@ -1,4 +1,4 @@
-import GithubDB from '../lib/githubdb';
+import GithubDB from './lib/githubdb';
 
 var options = {
   //host: 'private-github-api.com', // <-- Private github api url. If not passed, defaults to 'api.github.com'
