@@ -11,7 +11,8 @@ var options = {
 var GithubDB = require('..').default;
 // Initialize it with the options from above.
 var githubDB = new GithubDB(options);
- 
+
+// Lets go
 // Authenticate Github DB -> grab a token from here https://github.com/settings/tokens
 githubDB.auth(a9532bea3cb41789e368461db852efeb569d229c);
  
